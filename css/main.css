@@ -1,20 +1,17 @@
-* {
-    box-sizing: border-box;
-}
 
 body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color: #777777;
     margin: 0px;
     padding: 0px;
-    width: 960px;
+    background-image: url('../imgs/white-waves.png');
 }
 
-#name {
+.name {
     position: relative;
     height: 50px;
     width: 175px;
     font-size: 24px;
+    margin-left: 250px;
     padding: 10px;
     text-align: center;
     color: #eee;
@@ -24,22 +21,23 @@ body {
 
 h1 {
     border-bottom: 1px solid #333;
+    margin-top: 0px;
     padding: 20px;
     color: #4aaaa5;
     font-family: 'Georgia', 'Times', 'Times New Roman', serif;
 }
 
-#wrapper {
-    padding: 20px;
-    margin: 0 auto 0 auto;
-}
-
-#container {
-    background-color: #ffffff;
+.wrapper {
+    float: left;
+    width: auto;
+    margin-right: 250px;
+    margin-left: 250px;
+    margin-top: 30px;
 }
 
 #content {
     float: left;
+    background-color: #ffffff;
     padding: 0px;
     width: 960px;
     margin: 0 auto;
@@ -58,10 +56,13 @@ h1 {
 
 footer {
     clear: both;
+    position: fixed;
+    left: 0;
+    bottom: 0;
     background-color: #666666;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color: #777777;
-    width: 960px;
+    color: #999999;
+    width: 100%;
     text-align: center;
     padding: 20px;
     padding-bottom: 0px;
