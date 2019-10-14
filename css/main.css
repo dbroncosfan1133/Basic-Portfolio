@@ -6,6 +6,11 @@ body {
     background-image: url('../imgs/white-waves.png');
 }
 
+.header {
+    border-bottom: 1px solid #dddddd;
+    background-color: #ffffff;
+}
+
 .name {
     position: relative;
     height: 50px;
@@ -30,15 +35,16 @@ h1 {
 .wrapper {
     float: left;
     width: auto;
-    margin-right: 250px;
-    margin-left: 250px;
+    padding-right: 250px;
+    padding-left: 250px;
     margin-top: 30px;
 }
 
 #content {
     float: left;
     background-color: #ffffff;
-    padding: 0px;
+    padding-right: 20px;
+    padding-left: 20px;
     width: 960px;
     margin: 0 auto;
     right: auto;
