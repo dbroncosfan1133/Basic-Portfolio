@@ -14,6 +14,12 @@ header {
     padding-top: 10px;
 }
 
+#head-contain {
+    position: absolute;
+    right: 385px;
+    top: 15px;
+}
+
 .name {
     position: relative;
     height: 50px;
