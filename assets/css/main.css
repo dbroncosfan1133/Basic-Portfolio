@@ -14,10 +14,10 @@ header {
     padding-top: 10px;
 }
 
-#head-contain {
+.head-contain {
     position: absolute;
-    right: 385px;
-    top: 15px;
+    right: 247px;
+    top: 25px;
 }
 
 .name {
@@ -25,7 +25,7 @@ header {
     height: 50px;
     width: 175px;
     font-size: 24px;
-    margin-left: 250px;
+    margin-left: 268px;
     padding: 10px;
     text-align: center;
     color: #eee;
@@ -33,62 +33,55 @@ header {
     font-family: 'Georgia', 'Times', 'Times New Roman', serif;
 }
 
-a {
-    float: right;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 0px 15px;
     text-decoration: none;
     font-family: 'Georgia', 'Times', 'Times New Roman', serif;
     color: #777777;
 }
 
-#about {
-    position: absolute;
-    right: 460px;
-    top: 25px;
-    padding-right: 20px;
-}
-
-#portfolio {
-    position: absolute;
-    top: 25px;
-    right: 355px;
-    padding-left: 20px;
-    padding-right: 20px;
+#middle {
     border-right: 1px solid #dddddd;
     border-left: 1px solid #dddddd;
 }
 
-#contact {
-    position: absolute;
-    top: 25px;
-    right: 285px;
-    padding-left: 20px;
-}
-
 h1 {
-    border-bottom: 1px solid #dddddd;
-    margin-top: 0px;
+    border-bottom: 3px solid #dddddd;
+    margin-bottom: 30px;
     padding: 20px;
     color: #4aaaa5;
     font-family: 'Georgia', 'Times', 'Times New Roman', serif;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .wrapper {
-    float: left;
-    width: auto;
-    padding-right: 250px;
-    padding-left: 250px;
-    margin-top: 30px;
+    width: 100%;
+    margin: 30px auto 0px auto;
 }
 
 #content {
-    float: left;
     background-color: #ffffff;
     color: #777777;
     line-height: 30px;
     padding-right: 20px;
     padding-left: 20px;
+    padding-bottom: 20px;
     width: 960px;
-    margin: 0 auto;
+    margin: 30px auto;
     right: auto;
     left: auto;
     border: 1px solid #dddddd;
@@ -115,4 +108,5 @@ footer {
     text-align: center;
     padding: 20px;
     padding-bottom: 10px;
+    z-index: 2;
 }
