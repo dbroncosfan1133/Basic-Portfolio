@@ -16,7 +16,7 @@ header {
 
 .head-contain {
     position: absolute;
-    right: 247px;
+    right: 270px;
     top: 25px;
 }
 
@@ -25,7 +25,7 @@ header {
     height: 50px;
     width: 175px;
     font-size: 24px;
-    margin-left: 268px;
+    margin-left: 288px;
     padding: 10px;
     text-align: center;
     color: #eee;
@@ -61,7 +61,7 @@ li a {
 h1 {
     border-bottom: 3px solid #dddddd;
     margin-bottom: 30px;
-    padding: 20px;
+    padding: 20px 20px 20px 0px;
     color: #4aaaa5;
     font-family: 'Georgia', 'Times', 'Times New Roman', serif;
     font-size: 24px;
@@ -74,6 +74,7 @@ h1 {
 }
 
 #content {
+    box-sizing: border-box;
     background-color: #ffffff;
     color: #777777;
     line-height: 30px;
