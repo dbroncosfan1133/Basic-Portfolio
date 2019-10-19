@@ -10,10 +10,14 @@
     padding-bottom: 40px;
 }
 
+.table-container {
+    position: relative;
+}
+
 .text-block1 {
     position: absolute;
-    top: 340px;
-    left: 330px;
+    top: 135px;
+    left: 30px;
     background-color: #4aaaa5;
     color: #ffffff;
     text-align: center;
@@ -25,8 +29,8 @@
 
 .text-block2 {
     position: absolute;
-    top: 340px;
-    left: 645px;
+    top: 135px;
+    left: 345px;
     background-color: #4aaaa5;
     color: #ffffff;
     text-align: center;
@@ -38,8 +42,8 @@
 
 .text-block3 {
     position: absolute;
-    top: 589px;
-    left: 330px;
+    top: 385px;
+    left: 30px;
     background-color: #4aaaa5;
     color: #ffffff;
     text-align: center;
@@ -51,8 +55,8 @@
 
 .text-block4 {
     position: absolute;
-    top: 589px;
-    left: 645px;
+    top: 385px;
+    left: 345px;
     background-color: #4aaaa5;
     color: #ffffff;
     text-align: center;
@@ -64,8 +68,8 @@
 
 .text-block5 {
     position: absolute;
-    top: 839px;
-    left: 330px;
+    top: 635px;
+    left: 30px;
     background-color: #4aaaa5;
     color: #ffffff;
     text-align: center;
